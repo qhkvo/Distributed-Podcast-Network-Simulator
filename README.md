@@ -36,6 +36,12 @@ A mini podcast network in C++ where users (Subscribers) connect through a Client
 11. main.cc
 12. Makefile
 
+## Typical Flow
+1. Build Network → add Podcasts (each with Episodes) → add Subscribers.
+2. Client connects (name match), runs a Search to create a playlist.
+3. Client streams episodes or downloads a Podcast; then plays locally from its own storage.
+4. Even if the Network deletes that Podcast, the Client’s deep-copied version still plays.
+
 ## Instruction (Terminal)
 1. make 
 2. ./a3
