@@ -1,4 +1,4 @@
-# 2404_A3
+# 2404_A3: Podcast Network Project Final
 # Quynh Vo (101203972)
 
 ## What it does
