@@ -1,6 +1,9 @@
 # 2404_A3
 # Quynh Vo (101203972)
 
+## What it does
+A mini podcast network in C++ where users (Subscribers) connect through a Client and can stream or download podcast Episodes. The system models real components—Network, Podcast, Episode, Subscriber, Client—and provides a test harness to drive scenarios without real networking.
+
 ## Files
 1. Location (Entity object): A virtual base class for StoreLocation and WHLocation classes.
     Location.h, Location.cc
@@ -15,7 +18,7 @@
     Product.h, Product.cc
 
 5. List (Container object): A list of Products that can grow arbitrarily large.
-    List.h, List,cc
+    List.h, List.cc
 
 6. Queue (Container object): A first-in-first-out (FIFO) data structure for storing WHLocations. The FIFO nature of the data structure ensures that we use older stock first.
     Queue.h, Queue.cc
