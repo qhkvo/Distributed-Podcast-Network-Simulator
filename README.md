@@ -1,5 +1,4 @@
-# 2404_A3: Podcast Network Project Final
-# Quynh Vo (101203972)
+# Distributed-Podcast-Network-Simulator
 
 ## What it does
 A mini podcast network in C++ where users (Subscribers) connect through a Client and can stream or download podcast Episodes. The system models real components—Network, Podcast, Episode, Subscriber, Client—and provides a test harness to drive scenarios without real networking.
